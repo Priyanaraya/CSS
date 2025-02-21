@@ -1,6 +1,6 @@
 
 body{
-   background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1TyC3FG5BUYh8nY33sL589j6BmQdkenRaERM0eacq6Z8KtxUnqQqu6yr8kyE2Slrf5Gg&usqp=CAU);
+   background-image: url(https://img.freepik.com/premium-photo/soft-lavender-background-with-pastel-finish-plain-background-wallpaper-image-art-design_1020697-715728.jpg);
    background-size: cover;
    justify-content: center;
    height: 100vh;
@@ -16,23 +16,31 @@ h2{
 }
 form{
    justify-items: center;
-    border: 5px solid rgba(157, 78, 231, 0.637);
+    border: 5px solid rgba(157, 78, 231, 0.856);
     height: fit-content;
     width: 390px;
     border-radius: 30px;
    
 }
-#p2{
-   background-color:purple;
+@media screen and (min-width:600px) {
+   body{
+      background-color: white;
+   }
+   
 }
-#p2:hover{
 
-   background-color: pink;
+button{
+   background-color:rgba(230, 35, 230, 0.123);
+
+}
+button:hover{
+
+   background-color: palevioletred;
 }
 
 .block{
    padding: 15px;
-   color: pink;
+   color: rgba(198, 83, 221, 0.637);
    width: 300px;
 
 }
